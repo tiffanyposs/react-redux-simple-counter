@@ -1,0 +1,34 @@
+.Counter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: lightblue;
+
+    span {
+      font-size: 25px;
+      line-height: 0;
+      margin-top: -2px;
+    }
+  }
+
+  .counter-number {
+    width: 150px;
+    height: 100px;
+    text-align: center;
+
+    h2 {
+      font-size: 50px;
+    }
+  }
+}
